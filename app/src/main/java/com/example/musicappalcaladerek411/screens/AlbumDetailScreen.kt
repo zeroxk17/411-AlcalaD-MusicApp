@@ -243,7 +243,7 @@ private fun AlbumHeader(album: Album, onBack: () -> Unit) {
                     contentAlignment = Alignment.Center
                 ) {
                     Icon(
-                        imageVector = Icons.Default.PlayArrow,
+                        imageVector = Icons.Default.Shuffle,
                         contentDescription = "Shuffle",
                         tint = PrimaryPurple,
                         modifier = Modifier.size(30.dp)
